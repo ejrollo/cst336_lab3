@@ -1,0 +1,59 @@
+body {
+    background-color: Lavender;
+    color: black;
+}
+
+head, footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'arial';
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.welcome {
+    font-family: 'pacifico';
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: green;
+}
+ 
+#signupForm {
+    text-align: left;
+    margin-left: 110ex;
+    font-family: 'sans-serif';
+}
+
+#state, #county {
+    border: 2px solid black;
+    margin: 4px 0;
+}
+
+footer {
+    font-size: 0.8em;
+    color: slateBlue;
+}
+
+input[type=text] {
+    margin: 4px 0;
+    border: 2px solid black;
+}
+
+input[type=text]:focus {
+    background-color: lightBlue;
+}
+
+input[type=password] {
+    margin: 4px 0;
+    border: 2px solid black;
+}
+
+input[type=password]:focus {
+    background-color: lightGreen;
+}
+
